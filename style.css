@@ -12,21 +12,22 @@
 }
 
 #body{
-    background-color: rgba(0, 0, 0, 0.800);
+    background-color: rgba(0, 0, 0,1);
     color: var(--primary-color);
 }
 
 #container{
     display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
     width: 100vw;
     height: 100vh;
 }
 
 #block-left{
     background: url(image/halie-west-25xggax4bSA-unsplash.jpg);
-    width: 40vw;
+    width: 35vw;
     height: 80vh;
     display: flex;
     flex-flow: column nowrap;
@@ -54,7 +55,14 @@
 }
 
 #block-right{
-
+    background-color: #eceef1;
+    width: 65vw;
+    height: 80vh;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 :valid{
